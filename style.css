@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    padding: 30px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #222;
+}
+
+#form-nombres {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#form-nombres input {
+    width: 160px;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #999;
+}
+
+#form-nombres button {
+    padding: 5px 12px;
+    border: 1px solid #666;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+#form-nombres button:hover {
+    background-color: #ccc;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.marcador {
+    width: 220px;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+#equipo1 {
+    background-color: #d1e7ff;
+}
+
+#equipo2 {
+    background-color: #ffd1d1;
+}
+
+.nombre {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.puntos {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.equipo button {
+    width: 50px;
+    height: 35px;
+    margin: 4px;
+    border: none;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.equipo button:hover {
+    background-color: #bbb;
+}
+
+#reset {
+    display: block;
+    margin: 25px auto;
+    padding: 10px 20px;
+    background-color: #aaa;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#lista-historial {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.mensajes {
+    margin: 10px 0;
+    color: #a00;
+}
+
+#listaJugadores li {
+    margin: 5px 0;
+    padding: 2px 0;
+}
+
+.contenedor {
+    background-color: #fffbe0;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.mensajes {
+    background-color: #ffe0e0;
+    padding: 8px;
+}
+
+#lista-historial {
+    background-color: #e0ffe0;
+    padding: 8px;
+}
